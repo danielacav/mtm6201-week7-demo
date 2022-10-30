@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 7- SVGs</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Scalable Vector Graphic</h1>
+        <!--Using a SVG file as an image-->
+        <img src="images/myfirst.svg" alt="Graphic with a square and a circle">
+
+        <!--Embedding SVG code in HTML-->
+        <svg class="dice" width="200" height="200" viewBox="0 0 200 200">
+            <rect x="0" y="0" width="200" height="200" rx="8" ry="8" fill="#4DD0E1"/>
+            <circle cx="50" cy="50" r="25" fill="#D50000"/>
+        </svg>
+
+        <svg width="110" height="160" viewBox="0 0 110 160">
+            <polyline points="10,10 10,50 50,50, 50,100 100,100 100,150" fill="white" stroke="#ef898b" stroke-width="6"/>
+          </svg>
+    </div>
+</body>
+</html>
